@@ -1,0 +1,32 @@
+.father{
+    background-color: silver;
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+
+}
+.box{
+    width: 200px;
+    height: 400px;
+}
+.another{
+
+    column-gap: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+.A{
+    background-color: darkkhaki;
+    width: 1000px;
+
+}
+.B{
+
+    width: 70%;
+    background-color: burlywood;
+}
+.C{
+    width: 30%;
+    background-color: darkgoldenrod;
+}
