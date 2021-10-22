@@ -1,0 +1,17 @@
+div{
+    width: 100px;
+    height: 100px;
+    background: darkseagreen;
+    margin-bottom: 3px;
+
+}
+/*div[ss]{*/
+/*   background: darkblue;*/
+/*    border-radius: 80%;*/
+/*}*/
+
+.box:nth-child(2n){
+    background: darkblue;
+    border-radius: 80%;
+
+}
