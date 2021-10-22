@@ -1,21 +1,28 @@
 
-div{
-
+div {
     width: 100px;
     height: 100px;
     background: darkseagreen;
     margin-left: 2px;
-
 }
+/*}*/
 /*div[ss]{*/
 /*   background: darkblue;*/
 /*    border-radius: 80%;*/
 /*}*/
 
-.box:nth-child(2n){
+ div:nth-child(odd){
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
 
 }
+ ul.menu{
+     background-color: grey;
+ }
+
+ .new__menu li{
+     background-color:bisque;
+ }
+
