@@ -1,0 +1,51 @@
+.father{
+    width: 1000px;
+    display: flex;
+    flex-direction:column;
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+
+.widgets{
+    text-align: center;
+    border: 3px solid darkblue;
+    box-sizing: border-box;
+    background-color: steelblue;
+    width: 1000px;
+    height: 300px;
+
+
+}
+.threewidgets{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.big{
+    background-color: steelblue;
+    border: 3px solid darkblue;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+
+
+
+}
+
+.contact{
+    background-color: steelblue;
+    margin-top: 20px;
+    border: 3px solid darkblue;
+    box-sizing: border-box;
+    height: 300px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
